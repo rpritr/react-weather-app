@@ -1,11 +1,15 @@
 import React from 'react';
 import './Menu.css';
 const Menu = (props) => {
+    const {items} = props;
     return (
         <nav className="nav">
             <ul className="nav__list">
-                <li className="nav__list-item">Github</li>
-                <li className="nav__list-item">About</li>
+                {items.map((item, i) => (
+                    <a key={i} href={item.link} className="nav__list-item">
+                        <li >{item.name}</li>
+                    </a>
+                ))}
             </ul>
         </nav>
     )
