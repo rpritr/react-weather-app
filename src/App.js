@@ -1,6 +1,7 @@
 import './App.css';
 import Menu from "./Components/Menu/Menu";
 import Logo from "./Components/Logo/Logo";
+
 export function App() {
 
     const logo = new URL('./assets/logo.svg', import.meta.url);
