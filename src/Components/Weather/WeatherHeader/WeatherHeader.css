@@ -7,7 +7,7 @@
     width: 90px;
 }
 .weather__header--info {
-    line-height: 0.5;
+    line-height: 1.5;
 }
 .weather__header--info p:first-child {
     font-weight: bold;

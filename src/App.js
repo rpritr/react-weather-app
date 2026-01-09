@@ -1,3 +1,4 @@
+import 'reset-css';
 import './App.css';
 import Menu from "./Components/Menu/Menu";
 import Logo from "./Components/Logo/Logo";
@@ -28,7 +29,7 @@ export function App() {
             </Card>
             <Card>
                 <img src={add} alt="add"/>
-                <p>Add New Location</p>
+                <p style={{margin: "40px"}}>Add New Location</p>
             </Card>
         </Wrapper>
         <Footer>

@@ -3,8 +3,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 50px;
 }
 .weather__temperature--value
 {
     font-size: 9rem;
+    margin: 0;
 }
